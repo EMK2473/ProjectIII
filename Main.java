@@ -1,3 +1,14 @@
+/*
+Student Array
+Project 2
+Eric Keeton
+
+
+Purpose: This application manages a collection of student objects. It creates an array list of students and demonstrates the use of encapsulation and method overloading. The program prints the information of each student in the specified format:
+
+Last Name, First Name, Gender, Grade Level, Favorite Subject
+ */
+
 import java.util.ArrayList;
 
 
