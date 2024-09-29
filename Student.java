@@ -7,7 +7,7 @@ public class Student {
     private String favSubject;
 
 
-    // create public constructor; student fields as param
+    // student constructor; student fields as params
     public Student(String firstName, String lastName, String gradeLevel, String gender, String favSubject){
         this.firstName = firstName;
         this.lastName = lastName;
@@ -17,8 +17,8 @@ public class Student {
 
     }
 
-    // create public method toString to print student info
+    // "overloaded" toString method to print student info in req format
     public String toString(){
-        return firstName + " " + lastName + " " + gradeLevel + " " + gender + " " + favSubject; 
+        return lastName + ", " + firstName + ", " + gender + ", " + gradeLevel + ", " + favSubject; 
     }
 }
