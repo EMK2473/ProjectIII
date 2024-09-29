@@ -1,20 +1,4 @@
-import java.util.ArrayList;
-
-public class ProjectIII {
-
-    public static void main(String[] args) {
-        // create array of student objects
-        // add students into array
-        // print student info
-
-    }
-
-
-}
-
-
 public class Student {
-    // create private fields for student info
     private String firstName;
     private String lastName;
     private String gradeLevel;
@@ -34,7 +18,6 @@ public class Student {
 
     // create public method toString
     public String toString(){
-        
+        return firstName + " " + lastName + " " + gradeLevel + " " + gender + " " + favSubject; 
     }
-     
 }
