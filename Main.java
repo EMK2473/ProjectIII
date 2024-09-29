@@ -12,11 +12,8 @@ public class Main {
         studentsArray.add(new Student("Steve", "Rogers", "Senior", "Male", "History"));
         studentsArray.add(new Student("Wanda", "Maximoff", "Junior", "Female", "Psychology"));
         studentsArray.add(new Student("Thanos", "Titan", "Graduate", "Male", "Philosophy"));
-        
-        // print student info
-        // for each student object in studentsArray, print each student object (calls toString method)
-        System.out.println(studentsArray.get(0));
 
+        // for each student in studentsArray, print student info
         for(Student student : studentsArray){
             System.out.println(student);
         }

@@ -1,4 +1,5 @@
 public class Student {
+    // declared private fields for student info
     private String firstName;
     private String lastName;
     private String gradeLevel;
@@ -16,7 +17,7 @@ public class Student {
 
     }
 
-    // create public method toString
+    // create public method toString to print student info
     public String toString(){
         return firstName + " " + lastName + " " + gradeLevel + " " + gender + " " + favSubject; 
     }
