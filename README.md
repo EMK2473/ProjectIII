@@ -4,6 +4,7 @@
  Licensing: [mit](https://choosealicense.com/licenses/mit/)
 
 ## Table of Contents
+- [Assignement Details](#assignment-details)
 - [Description](#description)
 - [Installation Requirements](#installation-requirements)
 - [Application Usage](#application-usage)
@@ -11,6 +12,27 @@
 - [Contributions](#contributions)
 - [Tests Commands](#tests-commands)
 - [Questions](#questions)
+
+## Assignment Details
+Project specifications:
+
+- Create 5 student objects with these fields as part of the objects: First Name, Last Name, Grade Level, Gender, Favorite Subject.
+
+- After you create the 5 different students, add them to an ArrayList than can hold student objects.
+
+- After that, you will need to "overload" a toString method for the Student Class to print out students in the following Format:
+
+    - Last Name, First Name, Gender, Grade Level, Favorite Subject
+
+- After that, you will use a loop to print out each student in the ArrayList.
+
+Grading Criteria:
+
+- Student Class created
+- An ArrayList of Type Student is created to hold the students and the data for each specified variable of type String
+- A toString method is create for the student
+- Printout is up to specifications.
+
 ## Description
 A Java program that manages a collection of student objects. It creates an ArrayList of students and demonstrates encapsulation and method overloading. The program prints each student's information in the specified format:  
 ```Java
